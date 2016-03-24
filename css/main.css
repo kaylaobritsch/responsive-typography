@@ -83,7 +83,7 @@ article ol {
   }
 
   blockquote {
-    margin: 1.4rem 0 1.4rem 0;
+    margin: auto;
   }
 
   article p {
@@ -117,7 +117,7 @@ article ol {
   }
 
   blockquote {
-    margin: 1.5rem 0 1.5rem 0;
+    margin: auto;
   }
 
   article p {
@@ -151,7 +151,7 @@ article ol {
   }
 
   blockquote {
-    margin: 1.6rem 0 1.6rem 0;
+    margin: auto;
   }
 
   article p {
@@ -160,7 +160,7 @@ article ol {
 
   article ol {
     padding-left: 1.6rem;
-    margin: 0 0 1.6rem 0;
+    margin: 0 0 1.6rem -1.5rem;
   }
 
 }
