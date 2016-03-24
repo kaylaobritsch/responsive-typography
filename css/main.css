@@ -70,9 +70,8 @@ article ol {
 
 @media only screen and (min-width: 38em) {
 
-  article {
-    margin-right: auto;
-    margin-left: auto;
+  html {
+    font-size: 110%;
   }
 
   article header {
@@ -87,9 +86,6 @@ article ol {
     margin: 1.4rem 0 1.4rem 0;
   }
 
-  html {
-    font-size: 110%;
-  }
   article p {
     line-height: 1.4;
   }
@@ -103,8 +99,68 @@ article ol {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+  }
+
+  article {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  article header {
+    margin-bottom: 1.5rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  blockquote {
+    margin: 1.5rem 0 1.5rem 0;
+  }
+
+  article p {
+    line-height: 1.5;
+  }
+
+  article ol {
+    padding-left: 1.5rem;
+    margin: 0 0 1.5rem 0;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  article {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  article header {
+    margin-bottom: 1.6rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.6rem;
+  }
+
+  blockquote {
+    margin: 1.6rem 0 1.6rem 0;
+  }
+
+  article p {
+    line-height: 1.6;
+  }
+
+  article ol {
+    padding-left: 1.6rem;
+    margin: 0 0 1.6rem 0;
+  }
 
 }
